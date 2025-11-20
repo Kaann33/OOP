@@ -1,0 +1,13 @@
+import os
+'''os.mkdir('c:/data')
+with open('c:/data/file.text', 'w') as file:
+    file.write('Hallooo ')
+with open('c:/data/file.text', 'a') as file:
+    file.write('tekst toegevoegd')
+with open('c:/data/file.text', 'r') as file:
+    print(file.read())
+k = os.listdir('c:/')
+print(k)
+os.rename('c:/data/file.text', 'c:/data/result.text')'''
+os.remove('c:/data/file.text')
+os.rmdir('c:/data')
